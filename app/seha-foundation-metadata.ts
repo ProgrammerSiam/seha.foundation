@@ -1,4 +1,56 @@
 import { Metadata } from 'next';
-import { homeMetadata } from './metadata/home-metadata';
 
-export const sehaFoundationMetadata: Metadata = homeMetadata;
+export const sehaFoundationMetadata: Metadata = {
+  title: {
+    template: '%s - সেহা ফাউন্ডেশন',
+    default: 'সেহা ফাউন্ডেশন - সামাজিক শিক্ষা স্বাস্থ্য ও কৃষি ফাউন্ডেশন',
+  },
+  description: 'সেহা ফাউন্ডেশন হিসেবে আমরা ২০+ বছরের অভিজ্ঞতার সাথে বাংলাদেশের গ্রামীণ সম্প্রদায়ের সামাজিক ও অর্থনৈতিক উন্নয়নে নিবেদিত। আমাদের অধীনে পরিচালিত বিভিন্ন কর্মসূচি ও উদ্যোগসমূহের মাধ্যমে টেকসই উন্নয়ন ও কৃষি উন্নয়নে অবদান রাখছি।',
+  keywords: [
+    'সেহা ফাউন্ডেশন',
+    'সামাজিক শিক্ষা স্বাস্থ্য ও কৃষি ফাউন্ডেশন',
+    'কৃষি উন্নয়ন',
+    'সম্প্রদায় উন্নয়ন',
+    'আর্থিক সেবা',
+    'শিক্ষা',
+    'স্বাস্থ্য',
+    'সামাজিক কল্যাণ',
+    'কৃষি বিনিময়',
+    'Krishi Binimoy',
+  ],
+  authors: [{ name: 'সেহা ফাউন্ডেশন' }],
+  creator: 'সেহা ফাউন্ডেশন',
+  publisher: 'সেহা ফাউন্ডেশন',
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://www.seha.foundation/',
+  },
+  openGraph: {
+    title: 'সেহা ফাউন্ডেশন - সামাজিক শিক্ষা স্বাস্থ্য ও কৃষি ফাউন্ডেশন',
+    description: 'সেহা ফাউন্ডেশন হিসেবে আমরা ২০+ বছরের অভিজ্ঞতার সাথে বাংলাদেশের গ্রামীণ সম্প্রদায়ের সামাজিক ও অর্থনৈতিক উন্নয়নে নিবেদিত। আমাদের অধীনে পরিচালিত বিভিন্ন কর্মসূচি ও উদ্যোগসমূহের মাধ্যমে টেকসই উন্নয়ন ও কৃষি উন্নয়নে অবদান রাখছি।',
+    url: 'https://www.seha.foundation/',
+    siteName: 'সেহা ফাউন্ডেশন',
+    images: [
+      {
+        url: 'https://www.seha.foundation/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'সেহা ফাউন্ডেশন - সামাজিক শিক্ষা স্বাস্থ্য ও কৃষি ফাউন্ডেশন',
+      },
+    ],
+    locale: 'bn_BD',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'সেহা ফাউন্ডেশন - সামাজিক শিক্ষা স্বাস্থ্য ও কৃষি ফাউন্ডেশন',
+    description: 'সেহা ফাউন্ডেশন হিসেবে আমরা ২০+ বছরের অভিজ্ঞতার সাথে বাংলাদেশের গ্রামীণ সম্প্রদায়ের সামাজিক ও অর্থনৈতিক উন্নয়নে নিবেদিত। আমাদের অধীনে পরিচালিত বিভিন্ন কর্মসূচি ও উদ্যোগসমূহের মাধ্যমে টেকসই উন্নয়ন ও কৃষি উন্নয়নে অবদান রাখছি।',
+    images: ['https://www.seha.foundation/og-image.jpg'],
+  },
+  verification: {
+    google: 'your-google-site-verification-code',
+  },
+};
