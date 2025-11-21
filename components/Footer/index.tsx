@@ -81,7 +81,7 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4 block md:hidden">
             <div className="flex items-center gap-3 mb-6">
               <Link
-                href="/"
+                href="/seha-foundation"
                 className="flex items-center gap-2 cursor-pointer hover:opacity-90 transition-opacity"
               >
                 <div
