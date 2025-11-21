@@ -78,24 +78,19 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-3 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-12 mb-12">
           {/* About */}
-          <div className="lg:col-span-2 space-y-4 block md:hidden">
+          <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3 mb-6">
               <Link
-                href="/seha-foundation"
+                href="/"
                 className="flex items-center gap-2 cursor-pointer hover:opacity-90 transition-opacity"
               >
                 <div
                   className="rounded-xl flex items-center justify-center transform hover:rotate-3 transition-transform"
-                  // style={{
-                  //   background: "linear-gradient(135deg, #0A6B3E 0%, #2E8F57 100%)",
-                  //   boxShadow: "0 4px 10px rgba(10, 107, 62, 0.15)",
-                  // }}
                 >
-                  {/* <Sprout className="w-8 h-8 text-white" /> */}
                   <img
                     src="./logo1.png"
-                    alt="Seha Logo"
-                    className=" h-18  rounded-md "
+                    alt="SEHA Foundation Logo"
+                    className="h-16 rounded-md"
                   />
                 </div>
                 <div>
@@ -103,17 +98,16 @@ export default function Footer() {
                     className="text-xl font-bold"
                     style={{ color: '#FFFFFF' }}
                   >
-                    সেহা কৃষি বিনিময়
+                    সেহা ফাউন্ডেশন
                   </h3>
                   <p className="text-xs" style={{ color: '#FFF9E6' }}>
-                    একটি সেহা ফাউন্ডেশন কর্মসূচি
+                    সামাজিক শিক্ষা স্বাস্থ্য ও কৃষি ফাউন্ডেশন
                   </p>
                 </div>
               </Link>
             </div>
             <p className="text-sm leading-relaxed" style={{ color: '#E6E2DA' }}>
-              সামাজিক ব্যবসা মডেলে কৃষি উন্নয়নে নিবেদিত একটি সরকার অনুমোদিত
-              প্রতিষ্ঠান।
+              সেহা ফাউন্ডেশন হিসেবে আমরা ২০+ বছরের অভিজ্ঞতার সাথে বাংলাদেশের গ্রামীণ সম্প্রদায়ের সামাজিক ও অর্থনৈতিক উন্নয়নে নিবেদিত।
             </p>
             <div className="flex gap-3">
               {['facebook', 'twitter', 'linkedin', 'youtube'].map(
