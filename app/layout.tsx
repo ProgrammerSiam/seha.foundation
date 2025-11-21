@@ -12,7 +12,7 @@ export default function SehaFoundationLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="bn">
       <body>
       <SehaFoundationNavbar />
     

@@ -20,6 +20,9 @@ import {
   Image,
   ArrowRight,
 } from 'lucide-react';
+import { sitemapMetadata } from '../metadata/sitemap-metadata';
+
+export const metadata = sitemapMetadata;
 
 export default function SitemapPage() {
   const siteSections = [

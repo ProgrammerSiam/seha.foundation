@@ -19,6 +19,8 @@ This directory contains SEO metadata for all pages of the SEHA Foundation websit
 - [careers-metadata.ts](file:///c:/Developments/All-Project-Learn-Prectice/agensy,product/MY/Products/Non-Gov/SEHA.Foundation/seha.foundation/app/metadata/careers-metadata.ts) - Careers page metadata
 - [annual-report-metadata.ts](file:///c:/Developments/All-Project-Learn-Prectice/agensy,product/MY/Products/Non-Gov/SEHA.Foundation/seha.foundation/app/metadata/annual-report-metadata.ts) - Annual Report page metadata
 - [impact-metadata.ts](file:///c:/Developments/All-Project-Learn-Prectice/agensy,product/MY/Products/Non-Gov/SEHA.Foundation/seha.foundation/app/metadata/impact-metadata.ts) - Impact and Achievements page metadata
+- [sitemap-metadata.ts](file:///c:/Developments/All-Project-Learn-Prectice/agensy,product/MY/Products/Non-Gov/SEHA.Foundation/seha.foundation/app/metadata/sitemap-metadata.ts) - Sitemap page metadata
+- [fap-metadata.ts](file:///c:/Developments/All-Project-Learn-Prectice/agensy,product/MY/Products/Non-Gov/SEHA.Foundation/seha.foundation/app/metadata/fap-metadata.ts) - Financial Assistance Program (FAP) page metadata
 
 ## Usage
 

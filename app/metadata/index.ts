@@ -13,3 +13,5 @@ export * from './resources-metadata';
 export * from './careers-metadata';
 export * from './annual-report-metadata';
 export * from './impact-metadata';
+export * from './sitemap-metadata';
+export * from './fap-metadata';
