@@ -19,6 +19,9 @@ import {
   CheckCircle,
   ArrowRight,
 } from 'lucide-react';
+import { volunteerMetadata } from '../metadata/volunteer-metadata';
+
+export const metadata = volunteerMetadata;
 
 export default function VolunteerPage() {
   const volunteerOpportunities = [

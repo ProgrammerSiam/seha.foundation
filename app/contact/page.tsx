@@ -10,6 +10,9 @@ import {
   Send,
 } from 'lucide-react';
 import Link from 'next/link';
+import { contactMetadata } from '../metadata/contact-metadata';
+
+export const metadata = contactMetadata;
 
 export default function ContactPage() {
   return (

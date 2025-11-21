@@ -13,6 +13,9 @@ import {
   ArrowRight,
   CheckCircle,
 } from 'lucide-react';
+import { eventsMetadata } from '../metadata/events-metadata';
+
+export const metadata = eventsMetadata;
 
 export default function EventsPage() {
   const upcomingEvents = [

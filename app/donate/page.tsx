@@ -21,6 +21,9 @@ import {
   Mail,
   MapPin,
 } from 'lucide-react';
+import { donateMetadata } from '../metadata/donate-metadata';
+
+export const metadata = donateMetadata;
 
 export default function DonatePage() {
   const [donationType, setDonationType] = useState('one-time');

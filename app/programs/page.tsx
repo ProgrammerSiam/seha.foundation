@@ -9,6 +9,9 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import Link from 'next/link';
+import { programsMetadata } from '../metadata/programs-metadata';
+
+export const metadata = programsMetadata;
 
 export default function ProgramsPage() {
   // Subsidiary Initiatives data

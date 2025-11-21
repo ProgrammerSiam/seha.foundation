@@ -2,6 +2,9 @@
 
 import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { newsMetadata } from '../metadata/news-metadata';
+
+export const metadata = newsMetadata;
 
 export default function NewsPage() {
   const newsItems = [

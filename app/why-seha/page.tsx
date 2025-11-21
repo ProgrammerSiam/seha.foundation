@@ -11,6 +11,9 @@ import {
   GraduationCap,
 } from 'lucide-react';
 import Link from 'next/link';
+import { whySehaMetadata } from '../metadata/why-seha-metadata';
+
+export const metadata = whySehaMetadata;
 
 export default function WhySehaPage() {
   return (

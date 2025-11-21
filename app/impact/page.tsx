@@ -9,6 +9,9 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import Link from 'next/link';
+import { impactMetadata } from '../metadata/impact-metadata';
+
+export const metadata = impactMetadata;
 
 export default function ImpactPage() {
   // Stats data

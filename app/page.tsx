@@ -17,6 +17,9 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import Link from 'next/link';
+import { homeMetadata } from './metadata/home-metadata';
+
+export const metadata = homeMetadata;
 
 export default function SehaFoundationPage() {
   // const [activeTab, setActiveTab] = useState('mission');

@@ -9,6 +9,9 @@ import {
   ArrowRight,
 } from 'lucide-react';
 import Link from 'next/link';
+import { getInvolvedMetadata } from '../metadata/get-involved-metadata';
+
+export const metadata = getInvolvedMetadata;
 
 export default function GetInvolvedPage() {
   return (
