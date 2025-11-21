@@ -48,7 +48,7 @@ export default function ProgramsPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-green-800 to-green-600 text-white py-20">
+      <div className="relative bg-gradient-to-r from-green-800 to-green-600 text-white py-40">
         <div
           className="absolute inset-0 opacity-10"
           style={{
