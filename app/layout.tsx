@@ -2,11 +2,9 @@ import SehaFoundationNavbar from "@/components/SehaFoundationNavbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";
+import { sehaFoundationMetadata } from './seha-foundation-metadata';
 
-export const metadata: Metadata = {
-  title: "SEHA Foundation",
-  description: "Building tomorrow's healthcare solutions today",
-};
+export const metadata: Metadata = sehaFoundationMetadata;
 
 export default function SehaFoundationLayout({
   children,
