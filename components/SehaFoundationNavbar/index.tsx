@@ -87,13 +87,13 @@ export default function SehaFoundationNavbar() {
             href="/"
             className="flex items-center gap-1 cursor-pointer hover:opacity-90 transition-opacity"
           >
-            <div className="rounded-xl flex items-center justify-center transform hover:rotate-3 transition-transform">
+            {/* <div className="rounded-xl flex items-center justify-center transform hover:rotate-3 transition-transform">
               <img
                 src="/SehaLogo.jpg"
                 alt="Seha Foundation Logo"
                 className="h-12"
               />
-            </div>
+            </div> */}
             <div>
               <h1 className="text-xl font-bold" style={{ color: '#0A6B3E' }}>
                 সেহা ফাউন্ডেশন
