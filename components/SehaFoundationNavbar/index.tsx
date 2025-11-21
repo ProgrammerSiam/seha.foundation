@@ -31,7 +31,7 @@ export default function SehaFoundationNavbar() {
     {
       id: 'home',
       label: 'হোম/আমাদের সম্পর্কে',
-      href: '/',
+      href: '/seha-foundation',
       icon: Home,
     },
     {
@@ -84,7 +84,7 @@ export default function SehaFoundationNavbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-0 py-2">
         <div className="flex justify-between items-center h-16">
           <Link
-            href=""
+            href="/"
             className="flex items-center gap-1 cursor-pointer hover:opacity-90 transition-opacity"
           >
             <div className="rounded-xl flex items-center justify-center transform hover:rotate-3 transition-transform">
