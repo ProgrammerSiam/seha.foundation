@@ -1,0 +1,14 @@
+# Redirect all variations to HTTPS www version
+http://seha.foundation/* https://www.seha.foundation/:splat 301
+http://www.seha.foundation/* https://www.seha.foundation/:splat 301
+https://seha.foundation/* https://www.seha.foundation/:splat 301
+
+# Specific page redirects
+/seha-foundation/* https://www.seha.foundation/:splat 301
+/www.seha.foundation/* https://www.seha.foundation/:splat 301
+
+# Favicon redirects for backward compatibility
+/favicon_io/favicon.ico /favicon.ico 301
+/favicon_io/favicon-16x16.png /favicon-16x16.png 301
+/favicon_io/favicon-32x32.png /favicon-32x32.png 301
+/favicon_io/apple-touch-icon.png /apple-touch-icon.png 301
