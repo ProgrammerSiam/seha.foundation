@@ -139,7 +139,7 @@ export default function SehaFoundationPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white ">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-green-800 to-green-600 text-white py-20">
         <div

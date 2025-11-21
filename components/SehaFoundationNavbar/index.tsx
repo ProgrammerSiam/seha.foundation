@@ -31,43 +31,43 @@ export default function SehaFoundationNavbar() {
     {
       id: 'home',
       label: 'হোম/আমাদের সম্পর্কে',
-      href: '/seha-foundation',
+      href: '/',
       icon: Home,
     },
     {
       id: 'mission',
       label: 'আমাদের মিশন ও ভিশন',
-      href: '/seha-foundation/mission-vision',
+      href: '/mission-vision',
       icon: Target,
     },
     {
       id: 'programs',
       label: 'প্রোগ্রাম ও উদ্যোগ',
-      href: '/seha-foundation/programs',
+      href: '/programs',
       icon: Package,
     },
     {
       id: 'impact',
       label: 'আমাদের প্রভাব',
-      href: '/seha-foundation/impact',
+      href: '/impact',
       icon: BarChart3,
     },
     {
       id: 'get-involved',
       label: 'অংশ নিন',
-      href: '/seha-foundation/get-involved',
+      href: '/get-involved',
       icon: Users,
     },
     {
       id: 'donate',
       label: 'দান করুন',
-      href: '/seha-foundation/donate',
+      href: '/donate',
       icon: Heart,
     },
     {
       id: 'contact',
       label: 'যোগাযোগ',
-      href: '/seha-foundation/contact',
+      href: '/contact',
       icon: Phone,
     },
   ];
@@ -84,7 +84,7 @@ export default function SehaFoundationNavbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-0 py-2">
         <div className="flex justify-between items-center h-16">
           <Link
-            href="/seha-foundation"
+            href=""
             className="flex items-center gap-1 cursor-pointer hover:opacity-90 transition-opacity"
           >
             <div className="rounded-xl flex items-center justify-center transform hover:rotate-3 transition-transform">

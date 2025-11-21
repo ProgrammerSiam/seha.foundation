@@ -92,7 +92,7 @@ export default function AnnualReportPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-emerald-50 mt-20">
       {/* Hero Section */}
       <div
         className="py-16 md:py-24 relative overflow-hidden"

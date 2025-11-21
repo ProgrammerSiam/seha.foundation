@@ -26,7 +26,7 @@ export default function SitemapPage() {
     {
       category: 'প্রধান পাতা',
       pages: [
-        { name: 'হোম/আমাদের সম্পর্কে', href: '/seha-foundation', icon: Home },
+        { name: 'হোম/আমাদের সম্পর্কে', href: '/', icon: Home },
       ],
     },
     {
@@ -34,17 +34,17 @@ export default function SitemapPage() {
       pages: [
         {
           name: 'আমাদের মিশন ও ভিশন',
-          href: '/seha-foundation/mission-vision',
+          href: '/mission-vision',
           icon: Target,
         },
         {
           name: 'আমাদের প্রভাব',
-          href: '/seha-foundation/impact',
+          href: '/impact',
           icon: BarChart3,
         },
         {
           name: 'কেন সেহা ফাউন্ডেশন',
-          href: '/seha-foundation/why-seha',
+          href: '/why-seha',
           icon: Award,
         },
       ],
@@ -54,12 +54,12 @@ export default function SitemapPage() {
       pages: [
         {
           name: 'প্রোগ্রাম ও উদ্যোগ',
-          href: '/seha-foundation/programs',
+          href: '/programs',
           icon: Package,
         },
         {
           name: 'আর্থিক সহায়তা প্রোগ্রাম (FAP)',
-          href: '/seha-foundation/fap',
+          href: '/fap',
           icon: DollarSign,
         },
       ],
@@ -67,16 +67,16 @@ export default function SitemapPage() {
     {
       category: 'অংশ নিন',
       pages: [
-        { name: 'অংশ নিন', href: '/seha-foundation/get-involved', icon: Users },
-        { name: 'দান করুন', href: '/seha-foundation/donate', icon: Heart },
+        { name: 'অংশ নিন', href: '/get-involved', icon: Users },
+        { name: 'দান করুন', href: '/donate', icon: Heart },
         {
           name: 'স্বেচ্ছাসেবা',
-          href: '/seha-foundation/volunteer',
+          href: '/volunteer',
           icon: Handshake,
         },
         {
           name: 'ক্যারিয়ার',
-          href: '/seha-foundation/careers',
+          href: '/careers',
           icon: Briefcase,
         },
       ],
@@ -84,21 +84,21 @@ export default function SitemapPage() {
     {
       category: 'মিডিয়া ও রিসোর্স',
       pages: [
-        { name: 'ইভেন্ট', href: '/seha-foundation/events', icon: Calendar },
+        { name: 'ইভেন্ট', href: '/events', icon: Calendar },
         {
           name: 'বার্ষিক প্রতিবেদন',
-          href: '/seha-foundation/annual-report',
+          href: '/annual-report',
           icon: FileText,
         },
-        { name: 'গ্যালারি', href: '/seha-foundation/gallery', icon: Image },
-        { name: 'রিসোর্স', href: '/seha-foundation/resources', icon: FileText },
-        { name: 'সংবাদ', href: '/seha-foundation/news', icon: Calendar },
+        { name: 'গ্যালারি', href: '/gallery', icon: Image },
+        { name: 'রিসোর্স', href: '/resources', icon: FileText },
+        { name: 'সংবাদ', href: '/news', icon: Calendar },
       ],
     },
     {
       category: 'যোগাযোগ',
       pages: [
-        { name: 'যোগাযোগ', href: '/seha-foundation/contact', icon: Phone },
+        { name: 'যোগাযোগ', href: '/contact', icon: Phone },
       ],
     },
   ];
@@ -259,17 +259,17 @@ export default function SitemapPage() {
               {
                 title: 'সাম্প্রতিক সংবাদ',
                 description: 'আমাদের সর্বশেষ সংবাদ ও আপডেটগুলি দেখুন',
-                link: '/seha-foundation/news',
+                link: '/news',
               },
               {
                 title: 'ডাউনলোড রিসোর্স',
                 description: 'প্রয়োজনীয় নথিপত্র ও রিসোর্স ডাউনলোড করুন',
-                link: '/seha-foundation/resources',
+                link: '/resources',
               },
               {
                 title: 'যোগাযোগ করুন',
                 description: 'আমাদের সাথে যোগাযোগ করতে দ্বিধা করবেন না',
-                link: '/seha-foundation/contact',
+                link: '/contact',
               },
             ].map((item, index) => (
               <div
