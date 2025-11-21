@@ -28,12 +28,12 @@ export default function SehaFoundationNavbar() {
 
   // Most important navigation items
   const navItems = [
-    {
-      id: 'home',
-      label: 'হোম/আমাদের সম্পর্কে',
-      href: '/',
-      icon: Home,
-    },
+    // {
+    //   id: 'home',
+    //   label: 'হোম/আমাদের সম্পর্কে',
+    //   href: '/',
+    //   icon: Home,
+    // },
     {
       id: 'mission',
       label: 'আমাদের মিশন ও ভিশন',
