@@ -84,7 +84,7 @@ export default function Footer() {
                 href="/"
                 className="flex items-center gap-2 cursor-pointer hover:opacity-90 transition-opacity"
               >
-                <div
+                {/* <div
                   className="rounded-xl flex items-center justify-center transform hover:rotate-3 transition-transform"
                 >
                   <img
@@ -92,7 +92,7 @@ export default function Footer() {
                     alt="SEHA Foundation Logo"
                     className="h-16 rounded-md"
                   />
-                </div>
+                </div> */}
                 <div>
                   <h3
                     className="text-xl font-bold"
