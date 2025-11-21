@@ -31,7 +31,7 @@ export default function SehaFoundationNavbar() {
     {
       id: 'home',
       label: 'হোম/আমাদের সম্পর্কে',
-      href: '/seha-foundation',
+      href: '/',
       icon: Home,
     },
     {
