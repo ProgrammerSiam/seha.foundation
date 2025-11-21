@@ -6,7 +6,7 @@ export function HeroSVG() {
           Welcome to SEHA Foundation
         </h1>
         <p className="text-xl md:text-2xl text-blue-100 mb-8">
-          Building tomorrow's healthcare solutions today
+          Building tomorrow's social edication healt adn agriculture solutions today
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition-colors">
