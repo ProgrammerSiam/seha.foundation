@@ -13,8 +13,6 @@ import {
 import Link from 'next/link';
 import { whySehaMetadata } from '../metadata/why-seha-metadata';
 
-export const metadata = whySehaMetadata;
-
 export default function WhySehaPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
