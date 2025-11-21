@@ -1,4 +1,3 @@
-import type { Metadata } from 'next';
-import { sehaFoundationMetadata } from './seha-foundation-metadata';
+import { homeMetadata } from './metadata/home-metadata';
 
-export const metadata: Metadata = sehaFoundationMetadata;
+export const metadata = homeMetadata;

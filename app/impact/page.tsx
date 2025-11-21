@@ -11,8 +11,6 @@ import {
 import Link from 'next/link';
 import { impactMetadata } from '../metadata/impact-metadata';
 
-export const metadata = impactMetadata;
-
 export default function ImpactPage() {
   // Stats data
   const stats = [

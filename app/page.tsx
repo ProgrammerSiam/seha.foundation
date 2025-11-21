@@ -19,7 +19,7 @@ import {
 import Link from 'next/link';
 import { homeMetadata } from './metadata/home-metadata';
 
-export const metadata = homeMetadata;
+// Remove the metadata export from client component
 
 export default function SehaFoundationPage() {
   // const [activeTab, setActiveTab] = useState('mission');

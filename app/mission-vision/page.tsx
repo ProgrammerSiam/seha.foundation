@@ -4,8 +4,6 @@ import { Target, Award } from 'lucide-react';
 import Link from 'next/link';
 import { missionVisionMetadata } from '../metadata/mission-vision-metadata';
 
-export const metadata = missionVisionMetadata;
-
 export default function MissionVisionPage() {
   const missionVisionData = {
     mission:
