@@ -11,8 +11,6 @@ import {
 import Link from 'next/link';
 import { getInvolvedMetadata } from '../metadata/get-involved-metadata';
 
-export const metadata = getInvolvedMetadata;
-
 export default function GetInvolvedPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">

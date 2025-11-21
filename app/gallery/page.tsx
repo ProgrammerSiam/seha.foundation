@@ -19,8 +19,6 @@ import {
 } from 'lucide-react';
 import { galleryMetadata } from '../metadata/gallery-metadata';
 
-export const metadata = galleryMetadata;
-
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 

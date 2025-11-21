@@ -20,8 +20,6 @@ import {
 } from 'lucide-react';
 import { fapMetadata } from '../metadata/fap-metadata';
 
-export const metadata = fapMetadata;
-
 export default function FinancialAssistanceProgram() {
   const assistanceTypes = [
     {
